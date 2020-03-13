@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #495057;
+}
+a {
+  color: #495057;
+}
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+p.back-to-results,
+p.upcoming-events {
+  margin: 30px 0px;
+}
+.content-wrapper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.search-bar {
+  width: 60%;
+  position: relative;
+  margin: 0 auto 30px auto;
+}
+.search-bar .form-control {
+  height: 60px;
+}
+.search-bar .search-icon {
+  background: url(search.svg) no-repeat;
+  background-size: 20px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  opacity: 0.6;
+}
+.user-block, .event-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+  margin-top: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.user-block .card {
+  flex-direction: row;
+  padding: 30px 20px;
+  box-shadow: 0px 2px 4px 0 #ccc;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.user-block .card img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.user-block .card p {
+  margin-bottom: 0;
+}
+.user-block .card .user-info {
+  word-break: break-all;
+  padding-left: 20px;
+}
+.user-block .card .user-info p {
+  font-weight: 800;
+}
+.event-details .card {
+  padding: 30px 20px;
+  box-shadow: 0px 2px 4px 0 #ccc;
+}
+.event-details .card .card-title {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.event-details .card .card-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+}
+.event-details .card .card-info div {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 767px) {
+  .container .content-wrapper .search-bar {
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+  .user-block {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+  .user-block .card {
+    padding: 30px 15px;
+  }
+  .event-details {
+    grid-template-columns: 1fr;
   }
 }
