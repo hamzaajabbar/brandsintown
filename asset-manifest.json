@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/brandsintown/static/css/main.4e7b145b.chunk.css",
-    "main.js": "/brandsintown/static/js/main.2faa4c21.chunk.js",
-    "main.js.map": "/brandsintown/static/js/main.2faa4c21.chunk.js.map",
+    "main.js": "/brandsintown/static/js/main.7e991e45.chunk.js",
+    "main.js.map": "/brandsintown/static/js/main.7e991e45.chunk.js.map",
     "runtime-main.js": "/brandsintown/static/js/runtime-main.dbc57c59.js",
     "runtime-main.js.map": "/brandsintown/static/js/runtime-main.dbc57c59.js.map",
     "static/js/2.7cc296eb.chunk.js": "/brandsintown/static/js/2.7cc296eb.chunk.js",
     "static/js/2.7cc296eb.chunk.js.map": "/brandsintown/static/js/2.7cc296eb.chunk.js.map",
     "index.html": "/brandsintown/index.html",
-    "precache-manifest.8db22ae647bd4137d62e895e6bfa1d42.js": "/brandsintown/precache-manifest.8db22ae647bd4137d62e895e6bfa1d42.js",
+    "precache-manifest.db261f187796d3e044feddffc36f4e0d.js": "/brandsintown/precache-manifest.db261f187796d3e044feddffc36f4e0d.js",
     "service-worker.js": "/brandsintown/service-worker.js",
     "static/css/main.4e7b145b.chunk.css.map": "/brandsintown/static/css/main.4e7b145b.chunk.css.map",
     "static/js/2.7cc296eb.chunk.js.LICENSE.txt": "/brandsintown/static/js/2.7cc296eb.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.dbc57c59.js",
     "static/js/2.7cc296eb.chunk.js",
     "static/css/main.4e7b145b.chunk.css",
-    "static/js/main.2faa4c21.chunk.js"
+    "static/js/main.7e991e45.chunk.js"
   ]
 }
