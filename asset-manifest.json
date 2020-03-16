@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/brandsintown/static/css/main.1b2a865f.chunk.css",
+    "main.js": "/brandsintown/static/js/main.2faa4c21.chunk.js",
+    "main.js.map": "/brandsintown/static/js/main.2faa4c21.chunk.js.map",
+    "runtime-main.js": "/brandsintown/static/js/runtime-main.dbc57c59.js",
+    "runtime-main.js.map": "/brandsintown/static/js/runtime-main.dbc57c59.js.map",
+    "static/js/2.7cc296eb.chunk.js": "/brandsintown/static/js/2.7cc296eb.chunk.js",
+    "static/js/2.7cc296eb.chunk.js.map": "/brandsintown/static/js/2.7cc296eb.chunk.js.map",
+    "index.html": "/brandsintown/index.html",
+    "precache-manifest.86f1da1ecb5c6edb4fa796573cd09a85.js": "/brandsintown/precache-manifest.86f1da1ecb5c6edb4fa796573cd09a85.js",
+    "service-worker.js": "/brandsintown/service-worker.js",
+    "static/css/main.1b2a865f.chunk.css.map": "/brandsintown/static/css/main.1b2a865f.chunk.css.map",
+    "static/js/2.7cc296eb.chunk.js.LICENSE.txt": "/brandsintown/static/js/2.7cc296eb.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/brandsintown/static/media/search.601f57dc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dbc57c59.js",
+    "static/js/2.7cc296eb.chunk.js",
+    "static/css/main.1b2a865f.chunk.css",
+    "static/js/main.2faa4c21.chunk.js"
+  ]
+}
