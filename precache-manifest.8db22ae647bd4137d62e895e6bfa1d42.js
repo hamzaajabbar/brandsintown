@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8bc6ae9e516b43ece9162e4706c41921",
+    "revision": "b621f6697046b6ed899d3b96275ef1e3",
     "url": "/brandsintown/index.html"
   },
   {
-    "revision": "dac1035bdab0a8445392",
-    "url": "/brandsintown/static/css/main.1b2a865f.chunk.css"
+    "revision": "ad429781aef15c74ebd1",
+    "url": "/brandsintown/static/css/main.4e7b145b.chunk.css"
   },
   {
     "revision": "4c8899805ee58746c6a8",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/brandsintown/static/js/2.7cc296eb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dac1035bdab0a8445392",
+    "revision": "ad429781aef15c74ebd1",
     "url": "/brandsintown/static/js/main.2faa4c21.chunk.js"
   },
   {
